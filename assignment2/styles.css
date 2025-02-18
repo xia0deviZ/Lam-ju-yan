@@ -1,0 +1,34 @@
+
+header{
+    color: whitesmoke;
+    border:  solid lightskyblue;
+    text-align: center;
+    background-color: #93d0f4;
+    padding: 10px;
+    
+}
+
+body{
+  padding: 10px;
+  width: 100%;
+  border: 4px;  
+  background-color: whitesmoke
+}
+  table{
+    width: 100%;
+    table-layout: fixed;
+    text-align: left;
+  } 
+
+section{
+  align-items: flex-end;
+}
+
+  footer{
+    background-color:#93d0f4 ;
+    text-align: center;
+    border: 100px;
+    padding: 10px;
+    color: whitesmoke;
+  }
+  
