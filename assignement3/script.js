@@ -23,6 +23,18 @@ const disneyData = {
 	close: "121.09"
 }
 
+const result = parseFloat(disneyData.open) -parseFloat(disneyData.high) +parseFloat(disneyData.low) -parseFloat(disneyData.close);
+console.log(result. toFixed(2))
+
+disneyData.volume ="1512311";
+console.log(disneyData);
+
+
+
+
+
+
+
 
 
 
