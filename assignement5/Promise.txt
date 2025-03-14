@@ -1,0 +1,43 @@
+Example Question:
+p.then(value => console.log(value));
+
+Question 1:
+p.then(resolve => console.log(resolve))
+
+Question 2:
+p.catch((Error) =>{
+console.log(Error)
+})
+
+Question 3:
+p.then(value => console.log(value));
+
+Question 4:
+p.then(value => console.log(value.name));
+
+Question 5:
+p.catch((Error) =>{
+console.log(Error)
+})
+
+Question 6:
+p.finally(() => {
+    console.log("Promise  settled.");
+});
+
+Question 7:
+p.then(value => {
+    console.log(value * 2); 
+});
+
+Question 8:
+p.catch(() => 0).then(console.log);
+
+Question 9:
+
+
+Question 10:
+
+
+Bonus Question:
+
